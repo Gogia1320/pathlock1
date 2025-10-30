@@ -31,3 +31,4 @@ C:\Users\paras\OneDrive\Desktop\pathlock1\backend\TaskManagement\obj\Debug\net8.
 C:\Users\paras\OneDrive\Desktop\pathlock1\backend\TaskManagement\obj\Debug\net8.0\TaskManagement.pdb
 C:\Users\paras\OneDrive\Desktop\pathlock1\backend\TaskManagement\obj\Debug\net8.0\TaskManagement.genruntimeconfig.cache
 C:\Users\paras\OneDrive\Desktop\pathlock1\backend\TaskManagement\obj\Debug\net8.0\ref\TaskManagement.dll
+C:\Users\paras\OneDrive\Desktop\pathlock1\backend\TaskManagement\obj\Debug\net8.0\TaskManagement.sourcelink.json
