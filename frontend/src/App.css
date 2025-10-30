@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -36,7 +29,7 @@
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.7); /* White overlay with 70% opacity */
+  background-color: rgba(255, 255, 255, 0.7); 
   padding: 2em;
 }
 
@@ -45,12 +38,11 @@
 }
 
 .task-form-background {
-  background-image: url('../public/image.png'); /* Example background image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative; /* Needed for overlay */
-  z-index: 1; /* Ensure content is above overlay */
+  position: relative; 
+  z-index: 1; 
 }
 
 .task-form-background::before {
@@ -60,15 +52,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.87); /* White overlay with 70% opacity */
-  border-radius: inherit; /* Inherit border-radius from parent */
-  z-index: -1; /* Place overlay behind content */
-}
-
-.app-background {
- /* background-image: url('/image2.png');  Background image for the entire app area */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.87); 
+  border-radius: inherit; 
+  z-index: -1; 
 }

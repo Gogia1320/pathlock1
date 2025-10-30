@@ -2,18 +2,16 @@ using TaskManagement.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddSingleton<ITaskService, TaskService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000", "http://localhost:5173") // Allow your frontend origin
+        builder.WithOrigins("http://localhost:3000", "http://localhost:5173") 
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
@@ -21,7 +19,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -30,10 +27,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors(); // Enable CORS
+app.UseCors(); 
 
 app.UseAuthorization();
 
-app.MapControllers(); // Map controllers
+app.MapControllers(); 
 
 app.Run();
