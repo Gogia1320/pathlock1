@@ -45,10 +45,10 @@ It allows users to manage tasks efficiently — add, view, and organize tasks wi
     ```bash
     dotnet run
 4.The API will start at:
-  https://localhost:5298
+  https://localhost:5093
 
 once running you can test API routes at:
-   https://localhost:5298/swagger
+   https://localhost:5093/swagger
 
 ## Frontend (React + Vite + TypeScript)
 1. Navigate to frontend:
